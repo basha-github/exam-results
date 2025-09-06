@@ -11,7 +11,8 @@ export default function ExamRollNo() {
     }
   return (
     <div>
-      <div className="schoolpadding">
+        <form>
+<div className="schoolpadding">
         <h1>Exam Results</h1>
         <input
           className="textHeight123"
@@ -23,11 +24,13 @@ export default function ExamRollNo() {
         />
         &nbsp;
         <button 
-        onClick={results}
+        onClick={()=>{results}}
         type="button" className="btn btn-primary">
           Submitt
         </button>
       </div>
+        </form>
+      
     </div>
   );
 }
