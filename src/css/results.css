@@ -1,0 +1,131 @@
+ body {
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  margin: 20px;
+  color: #000;
+}
+
+.report-card {
+  border: 2px solid #d00000;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(to right, #c40000, #ffb700);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.academic-session {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.student-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 40px;
+  margin-bottom: 20px;
+}
+
+.student-info div {
+  width: 45%;
+}
+
+.dotted {
+  border-bottom: 1px dotted #000;
+  display: inline-block;
+  width: 200px;
+}
+
+.marks-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.marks-table th,
+.marks-table td {
+  border: 1px solid #000;
+  padding: 5px;
+  text-align: center;
+}
+
+.summary-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.summary-boxes div {
+  border: 1px solid #000;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.co-scholastic {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.column {
+  width: 45%;
+}
+
+.column h3 {
+  background-color: #f5c518;
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+}
+
+.discipline h3 {
+  background-color: #ff66b2;
+}
+
+.column ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.promotion {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.grading-scale {
+  text-align: center;
+}
+
+.grading-scale table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.grading-scale th,
+.grading-scale td {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.signatures {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
