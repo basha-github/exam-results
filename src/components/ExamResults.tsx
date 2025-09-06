@@ -47,11 +47,11 @@ const reactToPrintFn = useReactToPrint({ contentRef });
     <table className="marks-table">
       <thead>
         <tr>
-          <th rowspan="2">Subjects</th>
-          <th colspan="4">Term I (100 Marks)</th>
-          <th colspan="4">Term II (100 Marks)</th>
-          <th rowspan="2">Grand Total</th>
-          <th rowspan="2">Grade</th>
+          <th rowSpan={2}>Subjects</th>
+          <th colSpan={4}>Term I (100 Marks)</th>
+          <th colSpan={4}>Term II (100 Marks)</th>
+          <th rowSpan={2}>Grand Total</th>
+          <th rowSpan={2}>Grade</th>
         </tr>
         <tr>
           <th>Oral</th><th>Half Yearly</th><th>Project</th><th>Total</th>
@@ -60,65 +60,65 @@ const reactToPrintFn = useReactToPrint({ contentRef });
       </thead>
       <tbody>
         <tr><td>English</td>
-        <td colspan="1">31</td>
-        <td colspan="1">25</td>
-        <td colspan="1">32</td>
-        <td colspan="1">88</td>
-        <td colspan="1">30</td>
-        <td colspan="1">30</td>
-        <td colspan="1">30</td>
-        <td colspan="1">90</td>
-        <td colspan="1">178</td>
-        <td colspan="1">A+</td>
+        <td colSpan={1}>31</td>
+        <td colSpan={1}>25</td>
+        <td colSpan={1}>32</td>
+        <td colSpan={1}>88</td>
+        <td colSpan={1}>30</td>
+        <td colSpan={1}>30</td>
+        <td colSpan={1}>30</td>
+        <td colSpan={1}>90</td>
+        <td colSpan={1}>178</td>
+        <td colSpan={1}>A+</td>
         </tr>
         
         <tr><td>Hindi</td>
-        <td colspan="1">25</td>
-        <td colspan="1">25</td>
-        <td colspan="1">25</td>
-        <td colspan="1">75</td>
-        <td colspan="1">20</td>
-        <td colspan="1">20</td>
-        <td colspan="1">20</td>
-        <td colspan="1">60</td>
-        <td colspan="1">135</td>
-        <td colspan="1">B+</td>
+        <td colSpan={1}>25</td>
+        <td colSpan={1}>25</td>
+        <td colSpan={1}>25</td>
+        <td colSpan={1}>75</td>
+        <td colSpan={1}>20</td>
+        <td colSpan={1}>20</td>
+        <td colSpan={1}>20</td>
+        <td colSpan={1}>60</td>
+        <td colSpan={1}>135</td>
+        <td colSpan={1}>B+</td>
         </tr>
         <tr><td>Maths</td>
-         <td colspan="1">28</td>
-        <td colspan="1">22</td>
-        <td colspan="1">30</td>
-        <td colspan="1">80</td>
-        <td colspan="1">30</td>
-        <td colspan="1">30</td>
-        <td colspan="1">20</td>
-        <td colspan="1">80</td>
-        <td colspan="1">160</td>
-        <td colspan="1">A</td>
+         <td colSpan={1}>28</td>
+        <td colSpan={1}>22</td>
+        <td colSpan={1}>30</td>
+        <td colSpan={1}>80</td>
+        <td colSpan={1}>30</td>
+        <td colSpan={1}>30</td>
+        <td colSpan={1}>20</td>
+        <td colSpan={1}>80</td>
+        <td colSpan={1}>160</td>
+        <td colSpan={1}>A</td>
         </tr>
         <tr><td>EVS</td>
-        <td colspan="1">31</td>
-        <td colspan="1">29</td>
-        <td colspan="1">30</td>
-        <td colspan="1">90</td>
-        <td colspan="1">32</td>
-        <td colspan="1">30</td>
-        <td colspan="1">33</td>
-        <td colspan="1">95</td>
-        <td colspan="1">185</td>
-        <td colspan="1">A+</td>
+        <td colSpan={1}>31</td>
+        <td colSpan={1}>29</td>
+        <td colSpan={1}>30</td>
+        <td colSpan={1}>90</td>
+        <td colSpan={1}>32</td>
+        <td colSpan={1}>30</td>
+        <td colSpan={1}>33</td>
+        <td colSpan={1}>95</td>
+        <td colSpan={1}>185</td>
+        <td colSpan={1}>A+</td>
         </tr>
         <tr><td>URDU</td>
-        <td colspan="1">25</td>
-        <td colspan="1">20</td>
-        <td colspan="1">25</td>
-        <td colspan="1">70</td>
-        <td colspan="1">30</td>
-        <td colspan="1">35</td>
-        <td colspan="1">30</td>
-        <td colspan="1">95</td>
-        <td colspan="1">165</td>
-        <td colspan="1">A</td>
+        <td colSpan={1}>25</td>
+        <td colSpan={1}>20</td>
+        <td colSpan={1}>25</td>
+        <td colSpan={1}>70</td>
+        <td colSpan={1}>30</td>
+        <td colSpan={1}>35</td>
+        <td colSpan={1}>30</td>
+        <td colSpan={1}>95</td>
+        <td colSpan={1}>165</td>
+        <td colSpan={1}>A</td>
         </tr>
       </tbody>
     </table>
