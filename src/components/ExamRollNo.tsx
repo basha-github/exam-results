@@ -5,10 +5,7 @@ export default function ExamRollNo() {
 
     const exam = useNavigate();
 
-    const results = (e:FormDataEvent)=>{
-        e.preventDefault();
-        exam("/results/"+1234);
-    }
+    
   return (
     <div>
         <form>
@@ -24,7 +21,7 @@ export default function ExamRollNo() {
         />
         &nbsp;
         <button 
-        onClick={()=>{results}}
+        onClick={()=>{ exam("/results/"+1234)}}
         type="button" className="btn btn-primary">
           Submitt
         </button>
